@@ -43,7 +43,7 @@ img {
     position: relative;
     top: -5px;  
     left: 10px;
-    border: 3px solid rgb(82, 96, 190);  
+    border: 3px solid rgb(107, 9108, 1989);  
     padding: 5px;                        
     margin: 0 45px 15px 0;                      
     background-color: white;
@@ -92,6 +92,6 @@ form {
     mix-blend-mode: multiply;
 }
 .mood-box{
-    border: 3px solid rgb(82, 96, 190);
+    border: 3px solid rgb(107, 9108, 1989);
     padding: 15px;
 }
