@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(224, 243, 250);
+}
+#main-heading {
+    position: static;
+    text-align:center;
+    font-family:Serif;
+    font-size: 37px
+}
+h2 {
+    text-align:center;
+    font-family:Serif;
+    font-size: 1.8rem;
+}
+h3{
+    font-size: 1.2em;
+}
+table, th, td{
+    border: 1px solid rgb(24, 9, 238);
+}
+.highlight {
+    color: rgb(24, 9, 138);
+}
+.header-section{
+    position: relative;
+    background-color: rgb(111, 194, 211);
+    padding: 20px;            
+    margin-bottom: 15px;
+}
+.main-section{
+    background-color: rgb(207, 238, 250);
+    padding: 20px;            
+    margin-bottom: 15px;
+}
+.footer-section{
+    background-color: rgb(169, 213, 230);
+    padding: 20px;            
+    margin-bottom: 15px;
+}
+img {
+    float: left;         
+    width: 25%;
+    position: relative;
+    top: -5px;  
+    left: 10px;
+    border: 3px solid rgb(82, 96, 190);  
+    padding: 5px;                        
+    margin: 0 45px 15px 0;                      
+    background-color: white;
+}
+th, td {
+    padding: 10px 15px;                 
+}
+form {
+    border: 2px dashed rgb(82, 96, 190);  
+    padding: 20px;                       
+    margin-top: 20px;                    
+    background-color: rgb(224, 243, 250);
+}
+.badge {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background-color: rgb(39, 71, 177);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+.clearfix {
+    clear: both;
+}
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info-box {
+    width: 30%;
+}
+.about-text {
+    float: right;
+    width: 65%;
+}
+.footer-logo {
+    float: right;
+    width: 150px;
+    height: auto;
+    border: none;
+    background: transparent;
+    mix-blend-mode: multiply;
+}
+.mood-box{
+    border: 3px solid rgb(82, 96, 190);
+    padding: 15px;
+    display: inline-block;
+}
